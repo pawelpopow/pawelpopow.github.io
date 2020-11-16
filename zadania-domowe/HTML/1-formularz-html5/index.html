@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="https://formspree.io/f/mdopgloj" method="POST">
+
+        <label for="name">Imię:</label>
+        <input type="text" name="name" id="name" required><br>
+
+        <label for="surname">Nazwisko:</label>
+        <input type="text" name="surname" id="surname" required><br>
+
+        <label for="email">Adres e-mail:</label>
+        <input type="email" name="email" id="email" placeholder="Podaj adres e-mail"><br>
+
+        <label for="phone">Telefon:</label>
+        <input type="tel" name="phone" id="phone" required><br>
+
+       <select name="city">
+           <option value="Kraków">Kraków</option>
+           <option value="Warszawa" selected>Warszawa</option>
+           <option value="Gdańsk">Gdańsk</option>
+       </select><br>
+
+       <label><input type="radio" name="choise">Tak</label><br> 
+       <label><input type="radio" name="choise">Nie</label><br> 
+       <label><input type="radio" name="choise">Nie wiem</label><br> 
+
+       <label><input type="checkbox" name="agreement">Wyrazam zgode na przetawarzanie danych osobowych</label><br>
+
+       <label for="message">Wiadomość:</label>
+       <textarea name="message" id="message" ></textarea><br>
+
+       <input type="submit" value= "Wyślij formularz">
+
+    </form>
+</body>
+</html>
