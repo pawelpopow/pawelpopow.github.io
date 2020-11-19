@@ -1,0 +1,37 @@
+body {
+    background: #b6bfbf;
+}
+
+.wrap {
+    height: 35rem;
+    background: #0006ff;
+    padding: 1rem;
+    margin-top: 10rem;
+    background: #fefcfe;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.head-font {
+    font-size: 1.5rem;
+    color: #88888a;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn-link {
+    color: #d5b393;
+}
+
+.btn-link:hover {
+    color: #b6bfbf;
+}
+
+.bd-example {
+    position: relative;
+    padding: 1rem;
+    margin: -1rem -15px 0;
+    background: #fefcfe;
+}
