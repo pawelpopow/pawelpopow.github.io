@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/flaga.jpg);
+    background-size: cover;
+    color: #0000ff;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.accordion {
+    background-image: url(../img/wyspy-kanaryjskie.jpg);
+    max-width: 600px;
+    margin: 50px auto;
+    border-top: 6px solid #00ff00;
+    line-height: 1.6;
+    box-shadow: 5px 5px 10px 0px #fff;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #add8a6;
+    padding: 15px 15px 15px 40px;
+    cursor: pointer;
+}
+
+.accordion-title {
+    color: #a52a2a;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    position: relative;
+}
+
+.accordion-title::before {
+    content: "+";
+    font-size: 20px;
+    position: absolute;
+    left: -16px;
+    top: -4px;
+    color:   #a52a2a;
+}
+
+.open .accordion-title::before {
+    content: "-";
+}
+
+.accordion-content {
+    display: none;
+}
+
